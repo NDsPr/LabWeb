@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            margin: auto;
+            background-color: #DEB887;
+            padding: 30px;
+            text-align: center;
+            font-size: 17px;
+            color: white;
+            height: 120px;
+            width: 900px;
+            border: 1px solid black;
+        }
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            border: 1px solid black;
+            margin: auto;
+            text-align: center;
+            color: white;
+            background: #ccc;
+            margin-top: 30px;
+            padding: 30px;
+            height: 400px;
+            width: 900px;
+        }
+        #Rong0{
+            font-size: 20px;
+            border-style: none;
+            width: 900px;
+            text-align: center;
+            margin: auto;
+
+        }
+        #Rong1,#Rong2{
+
+            width: 900px;
+            display: flex;
+            justify-content: center;/* căn chữ theo chiều ngang*/
+            align-content: center;/*căn chữ theo chiều dọc*/
+            color: white;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height :220px;
+            display: flex;
+            margin: auto;
+            text-align: center;
+        }
+
+        .cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width : 180px ;
+            background-color: #a8a9ad;
+
+        }
+
+
+        /* Style the footer */
+        footer {
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            width: 900px;
+            height: 120px;
+            margin: auto;
+            background-color: #115d7f;
+            font-size: 20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+
+
+<header>
+    <h1>Header Section </h1>
+      <h2>  900px- 120px </h2>
+</header>
+<nav>
+    <h1>Company Image </h1>
+        <h2> 900 px - 400 px </h2>
+      <h3>   designed by gdatamart.com</h3>
+</nav>
+<section>
+    <div id="Rong0">
+        <p><b>Our Services</b></p>
+    </div>
+    <div id="Rong1" class="row">
+        <div class="cell">services <br>
+        width : 180px <br>
+        height :220px</div>
+        <div class="cell">  services </div>
+        <div class="cell">services</div>
+    </div>
+    <div id="Rong2" class="row">
+        <div class="cell"><br></div>
+        <div class="cell"><br></div>
+        <div class="cell"><br></div>
+    </div>
+</section>
+
+
+<footer>
+    <p>Footer section <br>
+    900px - 120px</p>
+</footer>
+
+</body>
+</html>
+
