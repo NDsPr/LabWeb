@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 12px ;
+    background-color: white;
+    font-weight: bold;/* in dậm chữ */
+}
+
+nav {
+    border-left: 5px solid #8B0000;
+    border-bottom: 2px solid #8B0000 ;
+    background-color: #EEEEEE;
+   width: 60%;
+    align-content: center;
+    justify-items:center ;
+    margin-left: 20%;
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-menu li {
+    margin: 0;
+    padding: 15px;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: color 0.1s; /* Smooth transition effect */
+
+}
+
+.main-menu :hover  {
+   background: #8B0000; /* Change color on hover */
+
+}
+.main-menu .submenu {
+    display: none;
+    position: absolute;
+    background-color: #EEEEEE;
+    list-style: none;
+    padding: 0;
+    margin-left: -15px;
+}
+
+.main-menu .has-submenu:hover .submenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+
+}
+
+.submenu li {
+    padding: 15px;
+    border-bottom: 1px solid #BEBEBE;
+
+}
+
+.submenu li a {
+
+    text-decoration: none;
+    transition: color 0.1s; /* Smooth transition effect */
+}
+.main-menu li:hover a {
+    color: white; /* Change color on hover */
+}
+.has-submenu:hover li a{
+    color: black;
+}
+.submenu:hover li:hover a {
+    color: white; /* Change color on hover */
+}
