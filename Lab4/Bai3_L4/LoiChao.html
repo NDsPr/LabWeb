@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loi chao ngau nhien</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 10%;
+            padding: 50px;
+            background-color: #75b798;
+        }
+
+        #greeting {
+            font-weight: bold;
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div id="greeting"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Mảng các lời chào ngẫu nhiên
+        var greetings = [
+            "Chào bạn! ^,^",
+            "Xin chào! (@,@)",
+            "Hi there! (+.+)",
+            "Xin chào mừng! (*,*)",
+            "Hello! (&.&)",
+            "Hola! (@~@)"
+        ];
+
+        // Chọn một lời chào ngẫu nhiên
+        var randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
+
+        // Hiển thị lời chào trên trang web
+        document.getElementById("greeting").innerHTML = randomGreeting;
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+
+}
+.container{
+    background: url('https://phunugioi.com/wp-content/uploads/2020/09/hinh-nen-slide-dep.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in{
+    margin: auto;
+    background-color: #cfe2ff;
+    height: 70%;
+    width: 40%;
+    border-radius: 10px;
+}
+h1{
+   text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+label{
+   margin: 20px;
+}
+
+.name_email_pass{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: white;
+    height: 55px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+button{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px ;
+    background-color: #BD59D7;
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-sign {
+    display: block;
+    margin: auto;
+}
+.loginWith{
+    margin-top: 40px;
+    color: #c6c7c8;
+    text-align: center;
+}
+.icon a {
+    display: inline-block;
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    line-height: 40px; /* Align text vertically */
+    margin-right: 10px; /* Adjust spacing between icons */
+    text-decoration: none;
+    color: #0b5ed7; /* Adjust the color as needed */
+}
+
+.icon a i {
+    font-size: 20px; /* Adjust the font size of the icon */
+}
+.footer{
+    margin-top:50px;
+    text-align: center;
+    color: #55405C;
+}
+

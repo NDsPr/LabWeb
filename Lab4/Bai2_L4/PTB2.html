@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Equation Solver</title>
+    <script>
+        function solveQuadraticEquation() {
+            // Lấy giá trị a, b, c từ input
+            var a = parseFloat(document.getElementById('a').value);
+            var b = parseFloat(document.getElementById('b').value);
+            var c = parseFloat(document.getElementById('c').value);
+
+            // Tính delta
+            var delta = b * b - 4 * a * c;
+
+            // Kiểm tra delta
+            if (delta > 0) {
+                var x1 = (-b + Math.sqrt(delta)) / (2 * a);
+                var x2 = (-b - Math.sqrt(delta)) / (2 * a);
+                document.getElementById('result').innerHTML = 'Phương trình có hai nghiệm phân biệt:<br>X₁ = ' + x1 + '<br>X₂ = ' + x2;
+            } else if (delta === 0) {
+                var x = -b / (2 * a);
+                document.getElementById('result').innerHTML = 'Phương trình có một nghiệm kép:<br>X = ' + x;
+            } else {
+                document.getElementById('result').innerHTML = 'Phương trình không có nghiệm thực.';
+            }
+        }
+    </script>
+    <style>
+        body{
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 20%;
+            background-color:aliceblue;
+        }
+        input,button{
+            margin: 10px;
+        }
+        button{
+
+        }
+    </style>
+</head>
+<body>
+
+<h2>Nhập các giá trị của a, b, c:</h2>
+<label for="a">a:</label>
+<input type="number" id="a" placeholder="Nhập giá trị a"><br>
+
+<label for="b">b:</label>
+<input type="number" id="b" placeholder="Nhập giá trị b"><br>
+
+<label for="c">c:</label>
+<input type="number" id="c" placeholder="Nhập giá trị c"><br>
+
+<button onclick="solveQuadraticEquation()">Giải phương trình</button>
+
+<h2>Kết quả:</h2>
+<p id="result"></p>
+
+</body>
+</html>

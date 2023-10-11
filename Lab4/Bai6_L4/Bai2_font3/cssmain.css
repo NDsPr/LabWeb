@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+#page {
+    width: 100%;
+    height: 850px;
+    background-color: #e3e3e3;
+}
+
+#page .form-account {
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+}
+
+#page .form-account .form-container {
+    height: 750px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#page .form-account .form-container .header {
+    padding: 30px 20px 20px 0px;
+    color: #7ED321;
+}
+
+#page .form-account .form-container .header p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#page .form-account .form-container .input-group {
+    width: 530px;
+}
+
+#page .form-account .form-container .form-group {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+#page .form-account .form-container .form-group i {
+    padding: 16px;
+    border-right: 1px solid #e5e5e5;
+    color: #B9B9B9;
+}
+
+#page .form-account .form-container .form-group input {
+    width: 470px;
+    height: 50px;
+    border: none;
+    background-color: #f9f9f9;
+}
+
+#page .form-account .form-container .form-info {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+#page .form-account .form-container .form-info .form-date {
+    float: left;
+    clear: right;
+}
+
+#page .form-account .form-container .form-info .form-date p {
+    color: #7ED321;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#page .form-account .form-container .form-info .form-date input {
+    width: 75px;
+    height: 50px;
+    margin-right: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #f9f9f9;
+    color: #8B8B8B;
+}
+
+#page .form-account .form-container .form-info .form-gender {
+    float: right;
+}
+
+#page .form-account .form-container .form-info .form-gender p {
+    color: #7ED321;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#page .form-account .form-container .form-info .form-gender button {
+    width: 130px;
+    height: 50px;
+    border: 1px solid #e5e5e5;
+    background-color: #f9f9f9;
+    color: #b9b9b9;
+}
+
+#page .form-account .form-container .form-info .form-gender button:hover {
+    background-color: #7ED321;
+    color: white;
+}
+
+#page .form-account .form-container .form-payment {
+    height: 100px;
+}
+
+#page .form-account .form-container .form-payment .header-pay p {
+    color: #7ED321;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#page .form-account .form-container .form-payment p {
+    display: inline-block;
+    color: #b9b9b9;
+}
+
+#page .form-account .form-container .form-payment span {
+    border: none;
+    padding: 16px 3px 16px 0;
+    color: #b9b9b9;
+
+}
+
+#page .form-account .form-container .form-payment .column-1 {
+    width: 263px;
+    float: left;
+    clear: right;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#page .form-account .form-container .form-payment .column-1:hover {
+    background-color: #7ed321;
+    cursor: pointer;
+}
+
+#page .form-account .form-container .form-payment .column-1:hover p {
+    color: white;
+    font-weight: bolder;
+
+}
+
+#page .form-account .form-container .form-payment .column-1:hover span {
+    color: white;
+}
+
+#page .form-account .form-container .form-payment .column-2 {
+    width: 263px;
+    float: right;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#page .form-account .form-container .form-payment .column-2:hover {
+    background-color: #7ed321;
+    cursor: pointer;
+}
+
+#page .form-account .form-container .form-payment .column-2:hover p {
+    color: white;
+    font-weight: bolder;
+}
+
+#page .form-account .form-container .form-payment .column-2:hover span {
+    color: white;
+}
+
+#page .form-account .form-container .form-carddate {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#page .form-account .form-container .form-carddate .form-1 {
+    float: left;
+    clear: right;
+    width: 270px;
+}
+
+#page .form-account .form-container .form-carddate input {
+    height: 50px;
+    border: 1px solid #e5e5e5;
+    background-color: #f9f9f9;
+    color: #727272;
+    width: 200px;
+
+}
+
+#page .form-account .form-container .form-carddate i {
+    padding: 16px;
+    border-right: 1px solid #e5e5e5;
+    background-color: #f9f9f9;
+    color: #B9B9B9;
+
+}
+
+#page .form-account .form-container .form-carddate .form-2 {
+    float: right;
+}
+
+#page .form-account .form-container .form-carddate .form-2 .date {
+    width: 115px;
+    height: 50px;
+    margin-right: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+#page .form-account .form-container .form-accept {
+    height: 100px;
+}
+
+#page .form-account .form-container .form-accept .accept {
+    color: #7ED321;
+    padding-bottom: 20px;
+
+}
+#page .form-account .form-container .form-accept .accept p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.error-message {
+    color: red;
+}

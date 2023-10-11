@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab3_Contact Us</title>
+    <link rel="stylesheet" href="cssmain.css">
+    <link rel="stylesheet" href="Kiemtra.js">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="page" id="pg">
+    <div class="container" id="cont">
+        <div class="form_cont">
+            <div class="header">
+                <h1> Contact Us</h1>
+            </div>
+            <div class="form_input_all">
+                <div class="form_input">
+                    <label for="full_name">FULL NAME *</label>
+                    <input type="text" id="full_name" class="f_input" placeholder="Enter Your Name">
+                    <div id="full_name_error" class="error-message"></div>
+                </div>
+                <div class="form_input2">
+                    <div class="f_input2_alpha">
+                        <label for="email">EMAIL *</label>
+                        <input type="text" id="email" class="f_input" placeholder="Enter Your Email">
+                        <div id="email_error" class="error-message"></div>
+                    </div>
+                    <div class="f_input2_omega">
+                        <label for="phone">PHONE</label>
+                        <input type="text" id="phone" class="f_input" placeholder="Enter Your Phone">
+                        <div id="phone_error" class="error-message"></div>
+                    </div>
+                </div>
+                <div class="form_input">
+                    <label for="needed_services">NEEDED SERVICES *</label>
+                    <select id="needed_services">
+                        <option class="otp">Please choose</option>
+                        <option class="otp">Shopping</option>
+                        <option class="otp">Food</option>
+                        <option class="otp">Drink</option>
+                        <option class="otp">Skin_care</option>
+                    </select>
+                    <div id="needed_services_error" class="error-message"></div>
+                </div>
+                <div class="form_input3">
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" placeholder="Your Message Here"></textarea>
+                </div>
+                <div id="error_message" class="error-message"></div>
+                <div class="footer">
+                    <div class="text">
+                        <button class="btn btn-submit" onclick="validateForm()">Submit</button>
+                    </div>
+                    <div class="icon">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="Kiemtra.js">
+
+</script>
+</body>
+</html>

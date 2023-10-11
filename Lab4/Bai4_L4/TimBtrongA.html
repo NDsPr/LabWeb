@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Kiem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        textarea, input {
+            margin-bottom: 10px;
+        }
+
+        #result {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<textarea id="textArea" rows="5" placeholder="Nhập đoạn văn (A)"></textarea><br>
+<input type="text" id="textField" placeholder="Nhập một dòng (B)"><br>
+<button onclick="countOccurrences()">Tìm</button>
+
+<div id="result"></div>
+
+<script>
+    function countOccurrences() {
+        // Lấy giá trị từ textarea và textfield
+        var textA = document.getElementById('textArea').value;
+        var textB = document.getElementById('textField').value;
+
+        // Sử dụng regex để tìm số lần xuất hiện của B trong A
+        var regex = new RegExp(textB, 'g');
+        var count = (textA.match(regex) || []).length;
+
+        // Hiển thị kết quả trên trang web
+        document.getElementById('result').innerHTML = 'Số lần xuất hiện của " ' + textB + ' " trong đoạn văn là: ' + count;
+    }
+</script>
+
+</body>
+</html>

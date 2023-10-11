@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changing Website</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            transition: background-color 0.5s ease;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+
+        #button1 { background-color: #e5c7ca; }
+        #button2 { background-color: #0dcaf0; }
+        #button3 { background-color: #9ec5fe; }
+        #button4 { background-color: #087990; }
+        #button5 { background-color: aquamarine; }
+        #button6 {background-color: #75b798}
+        #button7 {background-color: #0a58ca}
+        #button8 {background-color: #6f42c1}
+        #button9 {background-color: #fd7e14}
+        #button10 {background-color: #ffe69c}
+
+    </style>
+</head>
+<body>
+
+<button id="button1" onclick="changeColor('#e5c7ca')">1</button>
+<button id="button2" onclick="changeColor('#0dcaf0')">2</button>
+<button id="button3" onclick="changeColor('#9ec5fe')">3</button>
+<button id="button4" onclick="changeColor('#087990')">4</button>
+<button id="button5" onclick="changeColor('aquamarine')">5</button>
+<button id="button6" onclick="changeColor('#75b798')">6</button>
+<button id="button7" onclick="changeColor('#0a58ca')">7</button>
+<button id="button8" onclick="changeColor('#6f42c1')">8</button>
+<button id="button9" onclick="changeColor('#fd7e14')">9</button>
+<button id="button10" onclick="changeColor('#ffe69c')">10</button>
+<script>
+    function changeColor(color) {
+        document.body.style.backgroundColor = color;
+    }
+</script>
+
+</body>
+</html>
