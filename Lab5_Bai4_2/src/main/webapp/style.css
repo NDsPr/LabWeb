@@ -1,0 +1,236 @@
+#container4{
+    padding: 0px;
+    margin-top: 30px;
+    width: 1100px;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+#container4 #section3{
+
+    width: 440px;
+    height: 595px;
+    background: #b9b9b9;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+#container4 #section3 .Account{
+    width: 420px;
+    height: 579px;
+    background: white;
+    border-radius: 5px;
+
+}
+#container4 #section3 .Account h4{
+    color: #7ed321;
+}
+#container4 #section3 .Account .item
+{
+    width: 328px;
+    height: 37px ;
+    border: 2px solid #eeeeee;
+    background:#f9f9f9 ;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+
+#container4 #section3 .Account .item i,
+#container4 #section3 .Account .item p{
+    display: inline-block;
+    padding: 10px;
+
+
+}
+#container4 #section3 .Account .item .p{
+    border: none;
+    background:#f9f9f9 ;
+
+}
+
+#container4 #section3 .Account .item input.p:focus{
+    outline: none;
+}
+#container4 #section3 .Account .item i{
+    width: 17px;
+    height: 5px;
+    border-right: 2px solid #eeeeee;
+    color: #c3c3c3;
+
+}
+#container4 #section3 .Account .item p{
+    color: #b9b9b9;
+}
+
+#container4 #section3 .Account .count2 .itemd{
+    display: inline-block;
+    width: 44px;
+    height: 35px;
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 12px;
+
+}
+#container4 #section3 .Account .count2 input.itemd:focus{
+    outline: none;
+}
+#container4 #section3 .Account .count2 .itemd p{
+    padding: 10px;
+    color: #b9b9b9;
+}
+
+.count2 .gender .gender_item{
+    width: 165px;
+    height: 37px;
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    color: #b9b9b9;
+}
+.count2 .gender .gender_item .items, .itemss{
+    display: inline-block;
+    width: 75px;
+    height: 34px;
+    text-align: center;
+    border: none;
+
+
+
+
+}
+.count2 .gender .gender_item  input.items:focus,
+.count2 .gender .gender_item  input.itemss:focus{
+    outline: none;
+}
+.count2 .gender .gender_item .items{
+    float: right;
+    border-left: 2px solid #eeeeee;
+
+}
+
+.count2 .gender .gender_item .itemss p, .items p {
+    text-align: center;
+    padding-top: 10px;
+}
+#container4 #section3 .Account .count2 .date,
+#container4 #section3 .Account .count2 .gender,
+.Account .count3s .cards .credit .fa-solid, .cr,
+.Account .count3s .cards .paypal .fa-brands, .cr{
+    display: inline-block;
+}
+#container4 #section3 .Account .count2 .gender{
+    margin-left: 12px;
+}
+.Account .count3s .cards{
+    width: 330px;
+    height: 37px;
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    background:#f9f9f9 ;
+
+}
+
+.Account .count3s .cards .credit:hover,
+.Account .count3s .cards .paypal:hover{
+    background: #7ed321;
+    color: white;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+
+}
+.Account .count3s .cards .credit, .paypal{
+    display: inline-block;
+    width: 165px;
+    text-align: center;
+    padding-top: 5px;
+
+
+}
+.Account .count3s .cards .paypal{
+    color: #c3c3c3;
+}
+.Account .count3s .cards{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+
+}
+
+#container4 #section3 .Account .cvc{
+    width: 160px;
+    height: 37px;
+    border: 2px solid #eeeeee;
+    background:#f9f9f9 ;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: -33px;
+
+}
+#container4 #section3 .Account .cvc .p{
+    width: 110px;
+    border: none;
+    background: #f9f9f9;
+}
+#container4 #section3 .Account .cvc input.p:focus{
+    outline: none;
+}
+
+#container4 #section3 .Account .last_card{
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+
+}
+#container4 #section3 .Account .cvc .fa-solid,
+#container4 #section3 .Account .cvc .cr{
+    display: inline-block;
+    color: #c3c3c3;
+    padding: 10px;
+
+}
+
+#container4 #section3 .Account .cvc,
+#container4 #section3 .Account .dmy{
+    display: inline-block;
+
+}
+
+#container4 #section3 .Account .cvc .fa-solid{
+    width: 16px;
+    height: 8px;
+    border-right: 2px solid #eeeeee;
+}
+#container4 #section3 .Account .dmy{
+    width: 165px;
+    height: 37px;
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    background: #f9f9f9;
+    color: #c3c3c3;
+    display: flex;
+    justify-content: center;
+
+}
+#container4 #section3 .Account .last_card .dmy .dm,
+#container4 #section3 .Account .last_card .dmy .y{
+    display: inline-block;
+    color: black;
+}
+
+#container4 #section3 .Account .last_card .dmy .dm p, i,
+#container4 #section3 .Account .last_card .dmy .y p, i{
+    display: inline-block;
+    padding: 8px;
+}
+#container4 #section3 .Account .last_card .dmy .dm{
+    border-right: 2px solid #eeeeee;
+}
+#container4 #section3 .Account .count4,.count3s, .count2, .count1{
+    color: #c3c3c3;
+    margin-left: 40px;
+}
+

@@ -1,0 +1,114 @@
+/*Contact Us*/
+#container2{
+    width: 1100px;
+    margin-top: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    padding: 0;
+
+}
+p
+{ padding: 0;
+    margin: 0;
+}
+#container2 #section{
+    width: 460px;
+    height: 415px;
+    border: 7px solid #e6e6e6;
+
+}
+#section .dr_section .top .contact_us{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+#container2 #section .dr_section .center .p1 ,
+#container2 #section .dr_section .bootom .message .p1{
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+}
+
+#container2 #section .dr_section .center .p2 ,
+#container2 #section .dr_section .bootom .message .p2
+{
+    padding-left: 15px;
+    color: #dad6d4;
+    border: none;
+    background: #f7f7f7;
+    width: 180px;
+
+}
+#container2 #section .dr_section .center input.p2:focus,
+#container2 #section .dr_section .bootom .message input.p2:focus {
+    outline: none;
+}
+#container2 #section .dr_section .center .full_name,
+.email, .phone, .needed_services{
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    background: #f7f7f7;
+    height: 46px;
+    margin-bottom: 11px;
+
+
+}
+
+#container2 #section .dr_section .center .full_name,
+.needed_services{
+    width: 407px;
+    margin: auto;
+}
+
+#container2 #section .dr_section .center .email, .phone{
+    width: 198px;
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 23px;
+}
+#container2 #section .dr_section .center .phone{
+    margin-left: 9px;
+}
+
+#container2 #section .dr_section .center .needed_services i{
+    float: right;
+    margin-right: 23px;
+    color: #b9b9b9;
+
+}
+#container2 #section .dr_section .center .needed_services .fa-solid,
+.p2{
+    display: inline-block;
+}
+
+#container2 #section .dr_section .bootom .message{
+    width: 407px;
+    height: 81px;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    margin-top: 11px;
+    margin-left: 23px;
+    margin-bottom: 21px;
+}
+#container2 #section .dr_section .bootom .message .p2{
+    background: white;
+}
+#container2 #section .dr_section .bootom .btn{
+    width: 407px;
+    height: 30px;
+    margin-left: 23px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+#container2 #section .dr_section .bootom i{
+    float: right;
+    margin-top: 35px;
+    margin-right: 5px;
+    color: #b9b9b9;
+}
+#container2 #section .dr_section .center .needed_services .p2{
+    color: black;
+    font-weight: bold;
+}

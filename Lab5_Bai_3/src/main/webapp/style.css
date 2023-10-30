@@ -1,0 +1,87 @@
+/*section 2*/
+
+#container3 {
+    width: 1100px;
+    margin-top: 50px;
+    padding: 0;
+}
+#container3 #section2 {
+    width: 437px;
+    height: 327px;
+    background-image: url("images/sd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+#container3 #section2 .sign_in {
+    width: 157px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+
+
+}
+#container3 #section2 .sign_in .txt{
+    display: inline-grid;
+    margin: auto;
+}
+
+#section2 .sign_in .sign{
+    text-align: center;
+    margin-top: 32px;
+}
+#email, #password{
+    width: 113px;
+    height: 26px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 8px;
+    margin-bottom: 9px;
+    font-weight: bold;
+    color: black;
+    margin-left: 19px;
+}
+.sign_in .txt .im .img1, .img2{
+    width: 25px;
+    height: 25px;
+
+
+}
+.sign_in .txt .im{
+    margin-left: 54px;
+}
+
+#container3 #section2 .sign_in .txt .sign_btn{
+    width: 67px;
+    height: 22px;
+    background: #bd59d7;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 24px;
+    font-size: 10px;
+    color: white;
+    margin-left: 46px;
+}
+
+#container3 #section2 .sign_in .txt .or_logn{
+    color: #b9b9b9;
+    font-size: 10px;
+    margin-bottom: 11px;
+    margin-left: 55px;
+
+}
+.sign_in .txt .im  .img2{
+    border-radius: 50%;
+
+}
+
+#container3 #section2 .sign_in .txt .last{
+    color: #9b88a0;
+    margin-left: 64px;
+
+}
